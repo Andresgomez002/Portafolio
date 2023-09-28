@@ -1,0 +1,58 @@
+body {
+    background-image: url('https://images4.alphacoders.com/131/1313982.jpeg');
+    background-size: cover; /* Para ajustar la imagen al tamaño de la ventana del navegador */
+    background-repeat: no-repeat; /* Para que la imagen de fondo no se repita */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh; /* Altura del viewport */
+}
+
+/* Establece el fondo transparente en el lado izquierdo */
+.izquierda {
+    flex: 1;
+    background-color: rgba(255, 215, 0, 0.5); /* Fondo transparente en el lado izquierdo */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+}
+
+/* Establece el color de fondo en el lado derecho */
+.derecha {
+    flex: 1;
+    background-color:rgba(0, 170, 255, 0.7) /* Color de fondo en el lado derecho */
+}
+.menui{
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+a{
+    font-size: 40px;
+    color: white;
+}
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
